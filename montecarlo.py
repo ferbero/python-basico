@@ -10,7 +10,8 @@ def montecarlo(n):
             diana += 1
     return 4*diana/n
 def main():
+    r.seed(88)
     for i in range(1,10):
-        print(montecarlo(10000))
+        print(montecarlo(100000))
 if __name__=="__main__":
     main()
